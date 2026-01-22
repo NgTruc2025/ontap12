@@ -1,0 +1,5 @@
+{
+  "name": "Hệ thống ôn tập trực tuyến - Trường THPT Nguyễn Trung Trực",
+  "description": "Ứng dụng kiểm tra trắc nghiệm Tin học 12, hỗ trợ chấm điểm tự động, chống gian lận và gửi kết quả về Google Sheet.",
+  "requestFramePermissions": []
+}

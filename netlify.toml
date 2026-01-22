@@ -1,0 +1,12 @@
+[build]
+  # Lệnh build mặc định nếu bạn sử dụng Vite/Webpack (ví dụ: npm run build)
+  # Nếu bạn deploy file tĩnh trực tiếp, có thể bỏ qua dòng command
+  command = "npm run build"
+  # Thư mục chứa file sau khi build (thường là dist hoặc build)
+  publish = "dist"
+
+# Cấu hình redirect để tránh lỗi 404 khi reload trang trong ứng dụng React (SPA)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
