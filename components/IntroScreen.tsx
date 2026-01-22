@@ -196,7 +196,7 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart }) => {
         </form>
       </div>
 
-      {/* Settings Modal (Giữ nguyên logic cũ nhưng chỉnh màu sắc một chút cho đồng bộ) */}
+      {/* Settings Modal */}
       {showSettings && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 backdrop-blur-sm p-4 animate-fade-in">
           <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-2xl w-full max-w-2xl overflow-hidden border border-slate-200 dark:border-slate-700 max-h-[90vh] flex flex-col">
@@ -244,9 +244,9 @@ export const IntroScreen: React.FC<IntroScreenProps> = ({ onStart }) => {
                 {showHelp && (
                   <div className="mt-4 space-y-3 bg-slate-50 dark:bg-slate-800 p-4 rounded-xl border border-slate-200 dark:border-slate-700 text-sm text-slate-600 dark:text-slate-300">
                      <ol className="list-decimal pl-4 space-y-1">
-                       <li>Tạo Google Sheet, mở <strong>Extensions > Apps Script</strong>.</li>
+                       <li>Tạo Google Sheet, mở <strong>Extensions {'>'} Apps Script</strong>.</li>
                        <li>Dán code bên dưới và lưu lại.</li>
-                       <li>Chọn <strong>Deploy > New deployment</strong>.</li>
+                       <li>Chọn <strong>Deploy {'>'} New deployment</strong>.</li>
                        <li>Select type: <strong>Web app</strong>. Execute as: <strong>Me</strong>. Who has access: <strong>Anyone</strong>.</li>
                        <li>Copy URL và dán vào ô trên.</li>
                      </ol>
